@@ -10,9 +10,15 @@ const initialState = { theme: LIGHT };
 const themeSlice = createSlice({
   initialState,
   name: SLICE_NAME,
-  reducers: {},
+  reducers: {
+    updateTheme: (state, { payload }) => {
+      state.theme = payload;
+    },
+  },
 });
 
-const { reducer } = themeSlice;
+const { reducer, actions } = themeSlice;
+
+export const { updateTheme } = actions;
 
 export default reducer;

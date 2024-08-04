@@ -1,7 +1,13 @@
 import Counter from "./components/Counter";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 
 function App() {
-  return <Counter />;
+  return (
+    <>
+      <Counter />
+      <ThemeSwitcher />
+    </>
+  );
 }
 
 export default App;
