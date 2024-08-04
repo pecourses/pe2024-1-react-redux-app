@@ -22,8 +22,11 @@ const counterSlice = createSlice({
     },
   },
 });
-console.log(counterSlice);
 
-const { reducer } = counterSlice;
+const { reducer, actions } = counterSlice;
+
+export const { decrement, increment, setStep } = actions; // actionCreators
 
 export default reducer;
+// decrement() => {type: "counter/decrement"}
+// setStep(v) => {type: 'counter/setStep', payload:v}

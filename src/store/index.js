@@ -9,6 +9,10 @@ const store = configureStore({
 
 export default store;
 
+// {
+//   counter: { count: 0, step: 1 },
+// }
+
 // reducer - чиста функція (state, action) => state
 // action - js-object з обов'язковою властивістю
 //          type {type: "", payload: }
