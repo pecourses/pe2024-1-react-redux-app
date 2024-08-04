@@ -1,0 +1,19 @@
+.container {
+  padding: 1rem;
+  width: 100%;
+}
+
+.light {
+  color: #111;
+  background-color: #eee;
+}
+
+.dark {
+  color: #eee;
+  background-color: #111;
+}
+
+.blue {
+  color: #050721;
+  background-color: #d2f8ff;
+}
